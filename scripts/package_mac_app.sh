@@ -14,7 +14,7 @@ set -euo pipefail
 #   CODESIGN_ID     - codesign identity (optional)
 
 APP_NAME=${APP_NAME:-raylib-game}
-EXECUTABLE=${EXECUTABLE:-src/main.bin}
+EXECUTABLE=${EXECUTABLE:-src/main}
 BUNDLE_ID=${BUNDLE_ID:-com.example.raylibgame}
 VERSION=${VERSION:-1.0}
 ICON=${ICON:-}
