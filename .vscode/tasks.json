@@ -12,7 +12,7 @@
         "-g",
         "${file}",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}",
+        "${fileDirname}/${fileBasenameNoExtension}.bin",
         "-lraylib",
         "-framework",
         "CoreVideo",
