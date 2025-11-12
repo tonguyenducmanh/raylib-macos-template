@@ -2,7 +2,7 @@
   "tasks": [
     {
       "type": "cppbuild",
-      "label": "C/C++: clang build active file",
+      "label": "C/C++: clang build file đang mở",
       "command": "/usr/bin/clang",
       "args": [
         "-I${workspaceFolder}/include",
@@ -12,7 +12,7 @@
         "-g",
         "${file}",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}",
+        "${workspaceFolder}/build/${fileBasenameNoExtension}",
         "-lraylib",
         "-framework",
         "CoreVideo",
